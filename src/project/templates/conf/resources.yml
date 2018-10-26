@@ -1,0 +1,3 @@
+# API Gateway
+ApiCustomDomain: ${file(conf/apigateway/index.yml):ApiCustomDomain}
+ApiBaseMapping: ${file(conf/apigateway/index.yml):ApiBaseMapping}

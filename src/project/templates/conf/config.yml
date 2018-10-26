@@ -1,0 +1,37 @@
+default: &default
+  <<: *default
+  cloudformation:
+    deletionPolicy: Delete
+    stackTags:
+      STACK: ${self:custom.projectName}
+      STAGE: ${self:custom.stage}
+      REGION: ${self:custom.region}
+  project:
+    api:
+      url: ${self:custom.stage}-${self:custom.projectName}.com
+  acm:
+    certificateArn: <certificate-arn>
+  lambda:
+    memorySize: 512       # In MB - the more memory, the more compute power
+    timeout: 6            # In seconds
+    prune:
+      automatic: true     # Automatically prune old versions of Lambdas
+      number: 1           # How many previous versions of Lambda to keep
+
+test:
+  <<: *default
+
+dev:
+  <<: *default
+
+staging:
+  <<: *default
+
+prod:
+  <<: *default
+  cloudformation:
+    deletionPolicy: Retain
+    stackTags:
+      STACK: ${self:custom.projectName}
+      STAGE: ${self:custom.stage}
+      REGION: ${self:custom.region}

@@ -1,0 +1,12 @@
+# Primitives
+Region:
+  Value: ${self:custom.region}
+Stage:
+  Value: ${self:custom.stage}
+
+# API Gateway
+ApiEndpoint:
+  Value:
+    Fn::Join:
+      - '//'
+      - [ 'https:', Ref: ApiCustomDomain ]

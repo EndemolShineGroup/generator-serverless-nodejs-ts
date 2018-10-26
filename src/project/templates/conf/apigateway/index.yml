@@ -1,0 +1,20 @@
+# Custom Domain
+
+ApiCustomDomain:
+  DependsOn: ApiGatewayRestApi
+  Type: 'AWS::ApiGateway::DomainName'
+  Properties:
+    CertificateArn: ${self:custom.acm.certificateArn}
+    DomainName: ${self:custom.baseUrl}
+
+ApiBaseMapping:
+  DependsOn:
+    - ApiGatewayRestApi
+    - ApiCustomDomain
+  Type: 'AWS::ApiGateway::BasePathMapping'
+  Properties:
+    DomainName:
+      Ref: ApiCustomDomain
+    RestApiId:
+      Ref: ApiGatewayRestApi
+    Stage: ${self:custom.stage}

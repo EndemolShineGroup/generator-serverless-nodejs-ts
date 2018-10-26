@@ -1,0 +1,6 @@
+handler: src/Services/HelloService/Handler.default
+events:
+  - http:
+      method: GET
+      path: /hello
+      cors: true

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "lib": [
+      "esnext"
+    ],
+    "module": "commonjs",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.integ.ts",
+    "**/__fixtures__/*.*"
+  ]
+}
