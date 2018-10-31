@@ -1,7 +1,7 @@
 {
   "name": "@endemolshinegroup/generator-serverless-nodejs-ts",
   "description": "A Yeoman project generator for Serverless Typescript projects",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "generators/app/index.js",
   "types": "generators/app/index.d.ts",
