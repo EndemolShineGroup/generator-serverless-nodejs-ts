@@ -9,10 +9,11 @@
     ],
     "module": "commonjs",
     "outDir": "generators/",
-    "rootDir": "src",
+    "resolveJsonModule": true,
+    "rootDir": "./src",
     "sourceMap": true,
     "strict": true,
-    "target":"ES2015"
+    "target":"es2015"
   },
   "include": [
     "src/**/*.ts"
@@ -22,6 +23,7 @@
     "**/templates/*",
     "**/*.spec.ts",
     "**/*.integ.ts",
-    "**/__fixtures__/*.*"
+    "**/__fixtures__/*.*",
+    "src/setupTests.ts"
   ]
 }

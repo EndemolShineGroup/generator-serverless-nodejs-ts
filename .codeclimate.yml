@@ -11,7 +11,8 @@ exclude_patterns:
   - "**/dist/"
   - "**/node_modules/"
   - "**/tests/"
-  - "**/__fixtures__/"
+  - "src/setupTests.ts"                             # Exclude test setup files
+  - "**/__fixtures__/"                              # Exclude test fixtures
   - "**/vendor/"
   - "**/*.d.ts"
   - "**/*.spec.ts"

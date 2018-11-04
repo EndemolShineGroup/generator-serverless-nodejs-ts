@@ -1,4 +1,4 @@
-# @endemolshinegroup/generator-serverless-nodejs-ts
+![Banner][icon-banner]
 
 [![MIT Licensed][icon-license]][link-license]
 [![NPM Version][icon-npm]][link-npm]
@@ -32,6 +32,8 @@ yarn global add @endemolshinegroup/generator-serverless-nodejs-ts
 yo @endemolshinegroup/serverless-nodejs-ts
 ```
 
+[icon-banner]: docs/assets/banner.png
+
 [icon-license]: https://img.shields.io/github/license/EndemolShineGroup/generator-serverless-nodejs-ts.svg?longCache=true&style=flat-square
 [link-license]: LICENSE
 [icon-npm]: https://img.shields.io/npm/v/@endemolshinegroup/generator-serverless-nodejs-ts.svg?longCache=true&style=flat-square
@@ -57,4 +59,3 @@ yo @endemolshinegroup/serverless-nodejs-ts
 [link-semantic-release]: https://semantic-release.gitbooks.io/semantic-release/
 [icon-prettier]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?longCache=true&style=flat-square
 [link-prettier]: https://prettier.io/
-
