@@ -493,11 +493,11 @@
   dependencies:
     "@types/inquirer" "*"
 
-"@types/yeoman-test@^1.7.4":
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/@types/yeoman-test/-/yeoman-test-1.7.4.tgz#0f49009dd5254a302e1b72329f9e59743b5b870a"
+"@types/yeoman-test@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@types/yeoman-test/-/yeoman-test-2.0.3.tgz#888a170783094f79369c5cdff64a237f14b9aa21"
+  integrity sha512-aeRSIs1wk9DURLIwfD+0/JOEBSYU7oBjYNIQcYnuU5xLidT+CgDHyMvySwIe4BKSS7eZnP2qpg00QGG5f9YqPA==
   dependencies:
-    "@types/events" "*"
     "@types/yeoman-generator" "*"
 
 JSONStream@^1.0.4, JSONStream@^1.3.4:
@@ -6357,10 +6357,10 @@ stack-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.1.tgz#d4f33ab54e8e38778b0ca5cfd3b3afb12db68620"
 
-staged-git-files@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/staged-git-files/-/staged-git-files-1.1.2.tgz#4326d33886dc9ecfa29a6193bf511ba90a46454b"
-  integrity sha512-0Eyrk6uXW6tg9PYkhi/V/J4zHp33aNyi2hOCmhFLqLTIhbgqWn5jlSzI+IU0VqrZq6+DbHcabQl/WP6P3BG0QA==
+staged-git-files@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/staged-git-files/-/staged-git-files-1.1.1.tgz#37c2218ef0d6d26178b1310719309a16a59f8f7b"
+  integrity sha512-H89UNKr1rQJvI1c/PIR3kiAMBV23yvR7LItZiV74HWZwzt7f3YHuujJ9nJZlt58WlFox7XQsOahexwk7nTe69A==
 
 static-extend@^0.1.1:
   version "0.1.2"
