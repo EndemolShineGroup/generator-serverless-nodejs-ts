@@ -36,7 +36,7 @@
   "dependencies": {
     "@endemolshinegroup/generator-nodejs-ts": "^1.7.0",
     "tslib": "^1.9.3",
-    "yeoman-generator": "^3.1.1"
+    "yeoman-generator": "^4.7.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^7",
